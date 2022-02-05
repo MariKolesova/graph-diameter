@@ -1,6 +1,5 @@
 class Graph:
     def __init__(self, num, tops):
-        #for i in range(len(tops)):
         self.param = [num, tops[num], []]
 
 
