@@ -2,7 +2,6 @@ class Graph:
     def __init__(self, num, tops):
         #for i in range(len(tops)):
         self.param = [num, tops[num], []]
-        d = 0
 
 
 def check_graph(degrees):
