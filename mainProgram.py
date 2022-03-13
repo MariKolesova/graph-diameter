@@ -13,7 +13,7 @@ class Graph:
 
 def connect_graphs(equiv_graphs):
     for gr in equiv_graphs:
-                meta_graph.add_node(gr)
+                meta_graph.add_node(gr[0])
     for i in meta_graph.nodes:
         for j in meta_graph.nodes:
             if i != j and not isomorphism.is_isomorphic(i, j):
