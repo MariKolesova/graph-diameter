@@ -71,7 +71,7 @@ def check_exist_nodes_eith_added(new_tops, index):
         for node in list(meta_graphs[index].graph.nodes):
             if isomorphism.is_isomorphic(new_tops.switched[i], node):
                 meta_graphs[index].graph.remove_node(new_tops.switched[i])
-                new_tops.switched.delete(i)
+                new_tops.switched.pop(i)
 
 
 def get_diameter(index):
